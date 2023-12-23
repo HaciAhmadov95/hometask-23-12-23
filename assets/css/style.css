@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:darkcyan;
+    width: 100%;
+    height: 100px;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side h1{
+    color: antiquewhite;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.right-side ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 15px;
+    
+    
+}
+
+.right-side ul li{
+    list-style:  none;
+}
+
+.right-side ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+#center .text-area{
+    color: antiquewhite;
+    margin-bottom: 200px;
+}
+
+#center .text-area h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#center .nickname{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    font-size:xx-large ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+}
+
+.button{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkcyan;
+    color: darkcyan;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 700px;
+    border: solid 2px white;
+
+    }
+    
+
+
+      
+    button:hover{
+        background-color: transparent;
+    border: 1px solid wheat;
+    color: wheat;
+    }
+    
+
